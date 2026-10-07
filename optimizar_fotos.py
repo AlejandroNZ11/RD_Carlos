@@ -25,7 +25,7 @@ for nombre_archivo in imagenes:
     
     # Evitamos procesar si por alguna razón es una carpeta
     if os.path.isdir(ruta_actual):
-        continue
+        continue    
 
     try:
         # Obtenemos la extensión original (.jpg, .png, etc.)
